@@ -134,4 +134,27 @@ The code is in the section `Deal with Multiple Detections & False Positives` in 
 ### Discussion
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.
-Where will your pipeline likely fail?  What could you do to make it more robust?
+
+**Where will your pipeline likely fail?  What could you do to make it more robust?**
+
+##### Not enough training set for the real products.
+  - Different colors of car.
+  - Different type of cars such as lorries.
+  - Different kind of weather condition.
+
+Improvements:
+
+- Augumenting the training data.
+
+##### Car Directions
+
+In the project video, focused on cars running in same direction.
+Since the opposite direction lane is in the far left.
+But in the real situation, we may need to detect cars in same direction and opposite directions and manage them separately.
+
+Possible improvements:
+
+- Classify training data into 3 labels. car same direction, car opposite direction, non-cars
+
+- Track the detected car bounding box size and see the size is decreasing, increasing, not changing.
+
