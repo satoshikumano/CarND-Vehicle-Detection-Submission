@@ -89,7 +89,7 @@ To reduce the steps, I tried with the same parameters other than step = 2.
 Not so bad. However, result using step for the width of cell (8 pixel) would be more reliable since we can use higher threshold of detected number to drop false positives.
 
 I didn't tuned the classifier here.
-There's false positie though, I have implemented outlier rejection mentioned in [Video Implementation](### Video Implementation) section.
+There's false positie though, I have implemented outlier rejection mentioned in [Video Implementation](#video-implementation) section.
 
 Final parameters for window search I chose:
 
