@@ -3,6 +3,6 @@
 
 ## Submission files
 
-- [writeup.md](./wirteup.md)
+- [writeup.md](./writeup.md)
 - [Video output](./output_images/output.mp4)
 - [Notebook](./VehicleDetection.ipynb)
